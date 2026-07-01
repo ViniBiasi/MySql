@@ -1,8 +1,9 @@
+
 CREATE DATABASE IF NOT EXISTS estoque_bd
 DEFAULT CHARACTER SET utf8mb3
 DEFAULT COLLATE utf8_general_ci;
 
-USE Estoque_bd;
+USE estoque_bd;
 
 CREATE TABLE categorias(
     id_categoria INT NOT NULL AUTO_INCREMENT,
